@@ -571,6 +571,7 @@
         "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentProduct",
         "mangledName": "$s18StoreKit2Framework14PaymentProductC",
         "moduleName": "StoreKit2Framework",
+        "isOpen": true,
         "intro_iOS": "15.0",
         "declAttributes": [
           "AccessControl",
@@ -985,9 +986,60 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "jwsRepresentation",
+            "printedName": "jwsRepresentation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentTransaction(py)jwsRepresentation",
+            "mangledName": "$s18StoreKit2Framework18PaymentTransactionC17jwsRepresentationSSvp",
+            "moduleName": "StoreKit2Framework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentTransaction(im)jwsRepresentation",
+                "mangledName": "$s18StoreKit2Framework18PaymentTransactionC17jwsRepresentationSSvg",
+                "moduleName": "StoreKit2Framework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(transaction:)",
+            "printedName": "init(transaction:jwsRepresentation:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1000,11 +1052,17 @@
                 "name": "Transaction",
                 "printedName": "StoreKit.Transaction",
                 "usr": "s:8StoreKit11TransactionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18StoreKit2Framework18PaymentTransactionC11transactionAC0A3Kit0E0V_tcfc",
-            "mangledName": "$s18StoreKit2Framework18PaymentTransactionC11transactionAC0A3Kit0E0V_tcfc",
+            "usr": "s:18StoreKit2Framework18PaymentTransactionC11transaction17jwsRepresentationAC0A3Kit0E0V_SStcfc",
+            "mangledName": "$s18StoreKit2Framework18PaymentTransactionC11transaction17jwsRepresentationAC0A3Kit0E0V_SStcfc",
             "moduleName": "StoreKit2Framework",
             "declAttributes": [
               "AccessControl"
@@ -1042,6 +1100,7 @@
         "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentTransaction",
         "mangledName": "$s18StoreKit2Framework18PaymentTransactionC",
         "moduleName": "StoreKit2Framework",
+        "isOpen": true,
         "intro_iOS": "15.0",
         "declAttributes": [
           "AccessControl",
@@ -1191,6 +1250,7 @@
             "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager(py)delegate",
             "mangledName": "$s18StoreKit2Framework14PaymentManagerC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "StoreKit2Framework",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -1226,6 +1286,7 @@
                 "mangledName": "$s18StoreKit2Framework14PaymentManagerC8delegateAA0dE8Delegate_pSgvg",
                 "moduleName": "StoreKit2Framework",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -1261,6 +1322,7 @@
                 "mangledName": "$s18StoreKit2Framework14PaymentManagerC8delegateAA0dE8Delegate_pSgvs",
                 "moduleName": "StoreKit2Framework",
                 "implicit": true,
+                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -1282,6 +1344,7 @@
                 "mangledName": "$s18StoreKit2Framework14PaymentManagerC8delegateAA0dE8Delegate_pSgvM",
                 "moduleName": "StoreKit2Framework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "15.0",
                 "declAttributes": [
                   "Available"
@@ -1358,6 +1421,7 @@
             "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager(im)requestProductsWithProductIds:completion:",
             "mangledName": "$s18StoreKit2Framework14PaymentManagerC15requestProducts10productIds10completionySaySSG_ySb_SSSgtctF",
             "moduleName": "StoreKit2Framework",
+            "isOpen": true,
             "objc_name": "requestProductsWithProductIds:completion:",
             "declAttributes": [
               "AccessControl",
@@ -1441,6 +1505,7 @@
             "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager(im)purchaseProductWithProductId:appAccountToken:completion:",
             "mangledName": "$s18StoreKit2Framework14PaymentManagerC15purchaseProduct9productId15appAccountToken10completionySS_10Foundation4UUIDVSgySb_SSSgtctF",
             "moduleName": "StoreKit2Framework",
+            "isOpen": true,
             "objc_name": "purchaseProductWithProductId:appAccountToken:completion:",
             "declAttributes": [
               "AccessControl",
@@ -1502,6 +1567,7 @@
             "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager(im)restorePurchasesWithCompletion:",
             "mangledName": "$s18StoreKit2Framework14PaymentManagerC16restorePurchases10completionyySb_SSSgtc_tF",
             "moduleName": "StoreKit2Framework",
+            "isOpen": true,
             "objc_name": "restorePurchasesWithCompletion:",
             "declAttributes": [
               "AccessControl",
@@ -1539,6 +1605,7 @@
             "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager(im)getProductWithProductId:",
             "mangledName": "$s18StoreKit2Framework14PaymentManagerC10getProduct9productIdAA0dG0CSgSS_tF",
             "moduleName": "StoreKit2Framework",
+            "isOpen": true,
             "objc_name": "getProductWithProductId:",
             "declAttributes": [
               "AccessControl",
@@ -1570,6 +1637,7 @@
             "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager(im)getAllProducts",
             "mangledName": "$s18StoreKit2Framework14PaymentManagerC14getAllProductsSayAA0D7ProductCGyF",
             "moduleName": "StoreKit2Framework",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -1636,6 +1704,7 @@
             "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager(im)checkPurchaseStatusWithProductId:completion:",
             "mangledName": "$s18StoreKit2Framework14PaymentManagerC19checkPurchaseStatus9productId10completionySS_ySb_AA0D11TransactionCSgtctF",
             "moduleName": "StoreKit2Framework",
+            "isOpen": true,
             "objc_name": "checkPurchaseStatusWithProductId:completion:",
             "declAttributes": [
               "AccessControl",
@@ -1648,6 +1717,7 @@
         "usr": "c:@M@StoreKit2Framework@objc(cs)PaymentManager",
         "mangledName": "$s18StoreKit2Framework14PaymentManagerC",
         "moduleName": "StoreKit2Framework",
+        "isOpen": true,
         "intro_iOS": "15.0",
         "declAttributes": [
           "AccessControl",
@@ -1731,9 +1801,9 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/yutingli1123\/git\/MAUI.StoreKit2\/StoreKit2Framework\/StoreKit2Framework\/StoreKit2Framework.swift",
+      "filePath": "\/tmp\/MAUI.StoreKit2\/StoreKit2Framework\/StoreKit2Framework\/StoreKit2Framework.swift",
       "kind": "Dictionary",
-      "offset": 2987,
+      "offset": 3287,
       "length": 3,
       "value": "[]"
     }
