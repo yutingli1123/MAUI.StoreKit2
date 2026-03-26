@@ -6,13 +6,50 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		05D4A8CAFB9405651FB23F2E /* StoreKit2Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3F4FE82E0A55CB0042D184 /* StoreKit2Framework.framework */; };
+		5B46CABDBA2439F177515EC0 /* PaymentTransactionJWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34911E4DAF9C538F6E5F87 /* PaymentTransactionJWSTests.swift */; };
+		8CC8D9754E70299D599AA669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E452BB31C978EE50C67EE23 /* Foundation.framework */; };
+		8D277761FEF7A94A79935324 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8CFBD6D24AB531FE911E6F83 /* Products.storekit */; };
+		9FAC7B4F2378274947D338DB /* StoreKit2Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3F4FE82E0A55CB0042D184 /* StoreKit2Framework.framework */; };
+		B05B994A86FD173157AF5149 /* PaymentTransactionJWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9D537EB9523025AB967D1 /* PaymentTransactionJWSTests.swift */; };
+		BD9A4F8349A3C56EB85C4D0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E452BB31C978EE50C67EE23 /* Foundation.framework */; };
+		EEE435AFFB17FBF2D76761C2 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 35E1C8830267445127ED97B2 /* Products.storekit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D44BD3DCC238F314D58DFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3F4FDF2E0A55CB0042D184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3F4FE72E0A55CB0042D184;
+			remoteInfo = StoreKit2Framework;
+		};
+		D98CF9DF10D922C5AD78A663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3F4FDF2E0A55CB0042D184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3F4FE72E0A55CB0042D184;
+			remoteInfo = StoreKit2Framework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0A3F4FE82E0A55CB0042D184 /* StoreKit2Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StoreKit2Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F34911E4DAF9C538F6E5F87 /* PaymentTransactionJWSTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentTransactionJWSTests.swift; sourceTree = "<group>"; };
+		30F1222A45213C59FF998F42 /* StoreKit2FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreKit2FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E1C8830267445127ED97B2 /* Products.storekit */ = {isa = PBXFileReference; includeInIndex = 1; name = Products.storekit; path = StoreKit2FrameworkTests/Products.storekit; sourceTree = "<group>"; };
+		67E9D537EB9523025AB967D1 /* PaymentTransactionJWSTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentTransactionJWSTests.swift; path = StoreKit2FrameworkTests/PaymentTransactionJWSTests.swift; sourceTree = "<group>"; };
+		7F54F900DCE2CC7D9531CA2E /* StoreKit2FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreKit2FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFBD6D24AB531FE911E6F83 /* Products.storekit */ = {isa = PBXFileReference; includeInIndex = 1; path = Products.storekit; sourceTree = "<group>"; };
+		9E452BB31C978EE50C67EE23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0A3F4FEA2E0A55CB0042D184 /* StoreKit2Framework */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = StoreKit2Framework;
 			sourceTree = "<group>";
 		};
@@ -26,6 +63,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC8CD1EA829F28BF2D4DFFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8D9754E70299D599AA669 /* Foundation.framework in Frameworks */,
+				9FAC7B4F2378274947D338DB /* StoreKit2Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -34,6 +80,8 @@
 			children = (
 				0A3F4FEA2E0A55CB0042D184 /* StoreKit2Framework */,
 				0A3F4FE92E0A55CB0042D184 /* Products */,
+				93890FD9A25B695B65BE2058 /* Frameworks */,
+				AC8FF8AD22803C8621BD0C8D /* StoreKit2FrameworkTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,8 +89,36 @@
 			isa = PBXGroup;
 			children = (
 				0A3F4FE82E0A55CB0042D184 /* StoreKit2Framework.framework */,
+				7F54F900DCE2CC7D9531CA2E /* StoreKit2FrameworkTests.xctest */,
+				30F1222A45213C59FF998F42 /* StoreKit2FrameworkTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		71214506D7E4A754A0124676 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9E452BB31C978EE50C67EE23 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93890FD9A25B695B65BE2058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71214506D7E4A754A0124676 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC8FF8AD22803C8621BD0C8D /* StoreKit2FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F34911E4DAF9C538F6E5F87 /* PaymentTransactionJWSTests.swift */,
+				8CFBD6D24AB531FE911E6F83 /* Products.storekit */,
+			);
+			name = StoreKit2FrameworkTests;
+			path = StoreKit2FrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,11 +151,27 @@
 				0A3F4FEA2E0A55CB0042D184 /* StoreKit2Framework */,
 			);
 			name = StoreKit2Framework;
-			packageProductDependencies = (
-			);
 			productName = StoreKit2Framework;
 			productReference = 0A3F4FE82E0A55CB0042D184 /* StoreKit2Framework.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		3A4CFAE48FA4799ADD34E1CE /* StoreKit2FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4C52567FCC429DB186AE43 /* Build configuration list for PBXNativeTarget "StoreKit2FrameworkTests" */;
+			buildPhases = (
+				22FF54F400C4E7BCA6859F52 /* Sources */,
+				EC8CD1EA829F28BF2D4DFFD8 /* Frameworks */,
+				BD4E8503D83413ABC0B5378A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98E12CA58E021D3C9F7365BA /* PBXTargetDependency */,
+			);
+			name = StoreKit2FrameworkTests;
+			productName = StoreKit2FrameworkTests;
+			productReference = 30F1222A45213C59FF998F42 /* StoreKit2FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -111,6 +203,7 @@
 			projectRoot = "";
 			targets = (
 				0A3F4FE72E0A55CB0042D184 /* StoreKit2Framework */,
+				3A4CFAE48FA4799ADD34E1CE /* StoreKit2FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +213,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4E8503D83413ABC0B5378A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D277761FEF7A94A79935324 /* Products.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +234,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22FF54F400C4E7BCA6859F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B46CABDBA2439F177515EC0 /* PaymentTransactionJWSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98E12CA58E021D3C9F7365BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StoreKit2Framework;
+			target = 0A3F4FE72E0A55CB0042D184 /* StoreKit2Framework */;
+			targetProxy = 2D44BD3DCC238F314D58DFD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A3F4FED2E0A55CB0042D184 /* Debug */ = {
@@ -335,6 +453,106 @@
 			};
 			name = Release;
 		};
+		25BD5D327EDEFB2CB2FCCE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.9khub.StoreKit2FrameworkTests;
+				PRODUCT_NAME = StoreKit2FrameworkTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		417590CE6A2B385DDF009022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.9khub.StoreKit2FrameworkTests;
+				PRODUCT_NAME = StoreKit2FrameworkTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA237B4277BC1932A5F3A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.9khub.StoreKit2FrameworkTests;
+				PRODUCT_NAME = StoreKit2FrameworkTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		76832CD5B0F101B981989DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.9khub.StoreKit2FrameworkTests;
+				PRODUCT_NAME = StoreKit2FrameworkTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -352,6 +570,15 @@
 			buildConfigurations = (
 				0A3F4FF02E0A55CB0042D184 /* Debug */,
 				0A3F4FF12E0A55CB0042D184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4C52567FCC429DB186AE43 /* Build configuration list for PBXNativeTarget "StoreKit2FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76832CD5B0F101B981989DED /* Release */,
+				25BD5D327EDEFB2CB2FCCE1E /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

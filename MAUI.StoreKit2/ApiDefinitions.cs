@@ -237,5 +237,13 @@ namespace StoreKit2
         // @property (readonly, copy, nonatomic) NSString * _Nullable revocationReason;
         [NullAllowed, Export("revocationReason")]
         string RevocationReason { get; }
+
+        /// <summary>
+        /// The JWS (JSON Web Signature) representation of the transaction for server-side verification.
+        /// Format: header.payload.signature (Base64URL encoded, 3 parts separated by dots).
+        /// </summary>
+        // @property (readonly, copy, nonatomic) NSString * _Nonnull jwsRepresentation;
+        [Export("jwsRepresentation")]
+        string JwsRepresentation { get; }
     }
 }
